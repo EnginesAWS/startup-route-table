@@ -1,0 +1,11 @@
+{
+   
+  "identifier": "aws-route-table",
+  "about": {
+    "title": "AWS Route Table",
+    "explanation": "AWS Route Table"
+  },
+  "configuration": {
+    "vpc_id" : "aws_vpc.main.id"
+  }
+}
