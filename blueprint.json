@@ -5,7 +5,7 @@
 	"title": "AWS Route Table",
     	"explanation": "AWS Route Table"
   	},
-	"provider": {
+	"compute_service": {
 		"default": {"identifier": "route_table"}
 	},
 	"configuration": {
