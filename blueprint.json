@@ -5,7 +5,9 @@
     "title": "AWS Route Table",
     "explanation": "AWS Route Table"
   },
-  "configuration": {
+	"provider": {
+		"default": {"identifier": "route_table"}
+	},
     "vpc_id" : "aws_vpc.main.id"
   }
 }
