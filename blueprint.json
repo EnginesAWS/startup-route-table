@@ -2,12 +2,13 @@
    
   "identifier": "aws-route-table",
   "about": {
-    "title": "AWS Route Table",
-    "explanation": "AWS Route Table"
-  },
+	"title": "AWS Route Table",
+    	"explanation": "AWS Route Table"
+  	},
 	"provider": {
 		"default": {"identifier": "route_table"}
 	},
-    "vpc_id" : "aws_vpc.main.id"
-  }
+	"configuration": {
+    		"vpc_id" : "aws_vpc.main.id"
+	}
 }
