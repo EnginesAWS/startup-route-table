@@ -1,6 +1,7 @@
 {
    
-  "identifier": "aws-route-table",
+  "identifier": "aws-route-table",  
+  "depends_on": "aws-vpc",
   "about": {
     "title": "AWS Route Table",
     "explanation": "AWS Route Table"
