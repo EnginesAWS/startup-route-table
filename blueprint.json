@@ -3,10 +3,13 @@
   "identifier": "aws-route-table",  
   "depends_on": "aws-vpc",
   "about": {
-    "title": "AWS Route Table",
-    "explanation": "AWS Route Table"
-  },
-  "configuration": {
-    "vpc_id" : "aws_vpc.main.id"
-  }
+	"title": "AWS Route Table",
+    	"explanation": "AWS Route Table"
+  	},
+	"compute_service": {
+		"default": {"identifier": "route_table"}
+	},
+	"configuration": {
+    		"vpc_id" : "aws_vpc.main.id"
+	}
 }
