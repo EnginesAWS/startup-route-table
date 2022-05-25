@@ -10,7 +10,7 @@
 	"binding_target": {
 		"configuration": {
 			"vpc_id": "",
-      "gateway_id" : ""
+			"gateway_id" : ""
 		}
 	}
 }
