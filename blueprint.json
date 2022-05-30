@@ -1,15 +1,16 @@
 {
-   
-  "identifier": "aws-route-table",  
-  "depends_on": "aws-vpc",
-  "about": {
-	"title": "AWS Route Table",
-    	"explanation": "AWS Route Table"
-  	},
+	"identifier": "startup-route-table",
+	"about": {
+		"title": "Startup Route Table",
+		"explanation": "An elementary blueprint for the simplest AWS route table"
+	},
 	"compute_service": {
 		"default": {"identifier": "route_table"}
 	},
-	"configuration": {
-    		"vpc_id" : "aws_vpc.main.id"
+	"binding_target": {
+		"configuration": {
+			"vpc_id": "",
+			"gateway_id" : ""
+		}
 	}
 }
