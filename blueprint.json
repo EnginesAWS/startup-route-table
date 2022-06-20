@@ -2,15 +2,13 @@
 	"identifier": "startup-route-table",
 	"about": {
 		"title": "Startup Route Table",
-		"explanation": "An elementary blueprint for the simplest AWS route table"
+		"explanation": "An elementary blueprint for the simplest route table"
 	},
 	"compute_service": {
 		"default": {"identifier": "route_table"}
 	},
 	"binding_target": {
 		"configuration": {
-			"vpc_id": "",
-			"gateway_id" : ""
 		}
 	}
 }
